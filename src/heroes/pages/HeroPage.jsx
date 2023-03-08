@@ -19,7 +19,7 @@ export const HeroPage = () => {
 
   return (
     <div className='row mt-5'>
-      <div className="col-4">
+      <div className="col-4 animate__animated animate__zoomInDown">
         <img src={`/assets/heroes/${id}.jpg`} alt={heroe.superhero} className='img-thumbnail'/>
       </div>
 
